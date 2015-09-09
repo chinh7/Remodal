@@ -17,7 +17,7 @@
   } else {
     factory(root, root.jQuery || root.Zepto);
   }
-})(this, function(global, $) {
+})(this || window, function(global, $) {
 
   'use strict';
 
